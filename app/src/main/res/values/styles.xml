@@ -1,10 +1,11 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="android:colorPrimary">#e00201</item>
-        <item name="android:colorPrimaryDark">#e00201</item>
-        <item name="android:colorAccent">#e00201</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/md_cyan_600</item>
+        <item name="android:colorPrimaryDark">@color/md_cyan_600</item>
+        <item name="android:colorAccent">@color/md_cyan_600</item>
+        <item name="android:forceDarkAllowed" tools:ignore="NewApi">true</item>
 
         <!-- Customize Assistant components here -->
 

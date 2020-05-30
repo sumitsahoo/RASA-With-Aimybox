@@ -54,8 +54,9 @@ repositories {
 
 dependencies {
 
-    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.0-beta-3")
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.3")
 
+    implementation("com.google.android.material:material:1.1.0")
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")
@@ -65,6 +66,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3")
 
+    // Aimybox
     implementation("com.justai.aimybox:components:$componentsVersion")
     implementation("com.justai.aimybox:core:$aimyboxVersion")
     implementation("com.justai.aimybox:google-platform-speechkit:$aimyboxVersion")
