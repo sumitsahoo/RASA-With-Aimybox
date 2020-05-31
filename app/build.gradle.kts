@@ -14,7 +14,7 @@ android {
     defaultConfig {
         applicationId = "com.sumit.assistant"
 
-        minSdkVersion(21)
+        minSdkVersion(23)
         targetSdkVersion(29)
 
         versionName = componentsVersion
@@ -29,9 +29,12 @@ android {
     buildTypes {
         getByName("debug") {
             isMinifyEnabled = false
+            isDebuggable = true
+            isTestCoverageEnabled = true
         }
         getByName("release") {
-            //TODO configure pro guard
+            isMinifyEnabled = false
+            isDebuggable = false
         }
     }
 
@@ -66,6 +69,9 @@ dependencies {
     implementation(kotlin("stdlib"))
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3")
 
+    // Encrypted SharedPref
+    implementation("androidx.security:security-crypto:1.0.0-rc02")
+
     // Aimybox
     implementation("com.justai.aimybox:components:$componentsVersion")
     implementation("com.justai.aimybox:core:$aimyboxVersion")
@@ -75,4 +81,14 @@ dependencies {
     // Lottie
     val lottieVersion = "3.4.0"
     implementation("com.airbnb.android:lottie:$lottieVersion")
+
+    // Koin DI
+    val koinVersion = "2.1.5"
+
+    // Koin for Android (Kotlin)
+    implementation("org.koin:koin-core:$koinVersion")
+    implementation("org.koin:koin-android:$koinVersion")
+    implementation("org.koin:koin-androidx-scope:$koinVersion")
+    implementation("org.koin:koin-androidx-viewmodel:$koinVersion")
+    implementation("org.koin:koin-android-ext:$koinVersion")
 }

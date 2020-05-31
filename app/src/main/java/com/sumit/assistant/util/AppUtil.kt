@@ -1,4 +1,4 @@
-package com.dell.qrscanner.util
+package com.sumit.assistant.util
 
 import android.graphics.Color
 import android.graphics.drawable.AnimationDrawable

@@ -2,7 +2,7 @@ package com.sumit.assistant.ui
 
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.dell.qrscanner.util.AppUtil
+import com.sumit.assistant.util.AppUtil
 import kotlinx.android.synthetic.main.layout_activity_main.*
 
 open class BaseActivity : AppCompatActivity() {

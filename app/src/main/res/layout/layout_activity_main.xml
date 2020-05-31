@@ -16,12 +16,22 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
+        android:alpha="0.8"
         app:cardCornerRadius="40dp"
         app:cardElevation="10dp">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_settings"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_settings"
+                android:tint="@color/colorPrimary" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:id="@+id/animationView"
@@ -45,11 +55,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="120dp"
                 android:padding="18dp"
                 android:text="@string/prompt"
                 android:textAlignment="center"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
         </FrameLayout>
 
     </androidx.cardview.widget.CardView>

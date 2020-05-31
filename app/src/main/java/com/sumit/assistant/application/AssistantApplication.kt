@@ -8,15 +8,31 @@ import com.justai.aimybox.components.AimyboxProvider
 import com.justai.aimybox.core.Config
 import com.justai.aimybox.speechkit.google.platform.GooglePlatformSpeechToText
 import com.justai.aimybox.speechkit.google.platform.GooglePlatformTextToSpeech
+import com.sumit.assistant.di.module.appModule
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 import java.util.*
 
-class AimyboxApplication : Application(), AimyboxProvider {
+class AssistantApplication : Application(), AimyboxProvider {
 
     companion object {
         private const val AIMYBOX_API_KEY = "D01BipNn0ESFmVXSKUkpuHmdjdM6wNzV"
     }
 
     override val aimybox by lazy { createAimybox(this) }
+
+    override fun onCreate() {
+        super.onCreate()
+
+        // Initialize Koin DI
+
+        startKoin {
+            // Android context
+            androidContext(this@AssistantApplication)
+            // Koin modules
+            modules(arrayListOf(appModule))
+        }
+    }
 
     private fun createAimybox(context: Context): Aimybox {
         val unitId = UUID.randomUUID().toString()
