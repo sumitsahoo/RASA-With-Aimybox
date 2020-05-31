@@ -6,6 +6,11 @@
 
     <color name="ic_launcher_background">@color/colorPrimary</color>
 
+
+    <color name="colorGradientStart">@color/colorPrimary</color>
+    <color name="colorGradientCenter">@color/white</color>
+    <color name="colorGradientEnd">@color/md_yellow_600</color>
+
     <!--reds-->
     <color name="md_red_50">#FFEBEE</color>
     <color name="md_red_100">#FFCDD2</color>

@@ -3,6 +3,7 @@ package com.sumit.assistant.ui
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.dell.qrscanner.util.AppUtil
 import com.justai.aimybox.assistant.R
 import com.justai.aimybox.components.AimyboxAssistantFragment
 
@@ -12,7 +13,26 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_activity_main)
 
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        initViews()
+        initAssistant()
+    }
+
+    private fun initViews() {
+
+        AppUtil.makeStatusbarTransparent(this)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+
+        // Start gradient animation
+        //AppUtil.toggleAnimationBackground(fl_container, true)
+
+    }
+
+    private fun initAssistant() {
 
         val assistantFragment = AimyboxAssistantFragment()
 
