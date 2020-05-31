@@ -71,4 +71,8 @@ dependencies {
     implementation("com.justai.aimybox:core:$aimyboxVersion")
     implementation("com.justai.aimybox:google-platform-speechkit:$aimyboxVersion")
     implementation("com.justai.aimybox:rasa-api:$aimyboxVersion")
+
+    // Lottie
+    val lottieVersion = "3.4.0"
+    implementation("com.airbnb.android:lottie:$lottieVersion")
 }
