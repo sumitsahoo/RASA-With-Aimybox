@@ -5,7 +5,7 @@
     android:id="@+id/fl_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_start"
+    android:background="@drawable/gradient_animation"
     android:orientation="vertical"
     tools:context="com.sumit.assistant.ui.MainActivity">
 
