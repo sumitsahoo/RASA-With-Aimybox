@@ -5,6 +5,7 @@ plugins {
     id("com.android.application")
     kotlin("android")
     id("kotlin-android-extensions")
+    id("kotlin-android")
 }
 
 android {
@@ -17,7 +18,7 @@ android {
         minSdkVersion(23)
         targetSdkVersion(29)
 
-        versionName = componentsVersion
+        versionName = "1.0"
         versionCode = 1
     }
 

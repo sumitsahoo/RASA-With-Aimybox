@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_animation"
     android:orientation="vertical"
-    tools:context="com.sumit.assistant.ui.MainActivity">
+    tools:context="com.sumit.assistant.ui.activity.MainActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -44,8 +44,10 @@
                 app:lottie_rawRes="@raw/animation" />
 
             <ImageView
+                android:id="@+id/iv_logo"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
+                android:transitionName="@string/transition_name_logo"
                 android:layout_gravity="center"
                 android:layout_marginBottom="100dp"
                 android:src="@drawable/ic_communications"

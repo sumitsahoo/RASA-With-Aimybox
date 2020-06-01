@@ -1,9 +1,13 @@
-package com.sumit.assistant.ui
+package com.sumit.assistant.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
-import com.justai.aimybox.assistant.R
+import androidx.core.app.ActivityOptionsCompat
 import com.justai.aimybox.components.AimyboxAssistantFragment
+import com.sumit.assistant.R
+import kotlinx.android.synthetic.main.layout_activity_main.*
+
 
 class MainActivity : BaseActivity() {
 
@@ -18,6 +22,7 @@ class MainActivity : BaseActivity() {
 
         initViews()
         initAssistant()
+        setupEventHandlers()
     }
 
     private fun initViews() {
@@ -33,6 +38,19 @@ class MainActivity : BaseActivity() {
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.assistant_container, assistantFragment)
             commit()
+        }
+    }
+
+    private fun setupEventHandlers(){
+
+        iv_settings.setOnClickListener {
+            val settingsIntent = Intent(this, SettingsActivity::class.java)
+            val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this,
+                iv_logo,
+                getString(R.string.transition_name_logo)
+            )
+            startActivity(settingsIntent, options.toBundle())
         }
     }
 

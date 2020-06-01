@@ -1,4 +1,4 @@
-package com.sumit.assistant.ui
+package com.sumit.assistant.ui.activity
 
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity

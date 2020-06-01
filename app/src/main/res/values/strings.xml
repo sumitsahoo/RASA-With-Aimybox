@@ -2,4 +2,7 @@
     <string name="app_name">Aimybox Assistant</string>
     <string name="prompt">Your assistant is ready!\nTap on button below to start recognition.</string>
     <string name="initial_phrase">How can I help you?</string>
+    <string name="transition_name_logo">logo</string>
+    <string name="about_developer"><![CDATA[Designed & Developed By\nSumit Sahoo]]></string>
+    <string name="about_icons"><![CDATA[Icon made by Freepik from www.flaticon.com]]></string>
 </resources>
