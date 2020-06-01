@@ -73,20 +73,19 @@
             android:layout_marginEnd="20dp"
             android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/tv_api_key"
-                android:textAlignment="textStart"
-                android:textColor="@color/md_grey_900"
-                android:textSize="17sp" />
-
-            <EditText
-                android:id="@+id/et_api_key_or_url"
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/username_text_input_layout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:hint="@string/et_hint_enter_api_key" />
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_data_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et_hint_enter_api_key_or_url" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
         </LinearLayout>
 

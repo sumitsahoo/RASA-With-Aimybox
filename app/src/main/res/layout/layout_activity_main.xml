@@ -30,6 +30,7 @@
                 android:layout_height="30dp"
                 android:layout_gravity="end"
                 android:layout_margin="20dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_settings"
                 android:tint="@color/colorPrimary" />
 
@@ -47,11 +48,11 @@
                 android:id="@+id/iv_logo"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
-                android:transitionName="@string/transition_name_logo"
                 android:layout_gravity="center"
                 android:layout_marginBottom="100dp"
                 android:src="@drawable/ic_communications"
-                android:tint="@color/colorPrimary" />
+                android:tint="@color/colorPrimary"
+                android:transitionName="@string/transition_name_logo" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -41,7 +41,7 @@ class MainActivity : BaseActivity() {
         }
     }
 
-    private fun setupEventHandlers(){
+    private fun setupEventHandlers() {
 
         iv_settings.setOnClickListener {
             val settingsIntent = Intent(this, SettingsActivity::class.java)

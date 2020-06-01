@@ -25,8 +25,8 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:backgroundDimAmount">.70</item>
         <item name="android:windowBackground">@color/transparent</item>
-        <item name="android:windowMinWidthMajor">90%</item>
-        <item name="android:windowMinWidthMinor">90%</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
     </style>
 
     <style name="CustomAssistantButtonTheme" parent="DefaultAssistantTheme.AssistantButton">

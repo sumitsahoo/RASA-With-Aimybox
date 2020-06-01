@@ -17,7 +17,7 @@ val appModule = module {
 
         // Step 2: Initialize/open an instance of EncryptedSharedPreferences
         EncryptedSharedPreferences.create(
-            AppConstants.SharedPreferencesSettings.PREF_NAME,
+            AppConstants.SharedPreferencesKey.PREF_NAME,
             masterKeyAlias,
             androidContext(),
             EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,

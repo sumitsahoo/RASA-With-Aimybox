@@ -2,20 +2,30 @@ package com.sumit.assistant.util
 
 class AppConstants {
 
-    public interface AimyboxSettings {
+    interface AimyboxSettings {
         companion object {
             const val DEFAULT_AIMYBOX_API_KEY = "D01BipNn0ESFmVXSKUkpuHmdjdM6wNzV"
         }
     }
 
-    public interface SharedPreferencesSettings {
+    interface SharedPreferencesKey {
         companion object {
 
             const val PREF_NAME = "assistant_preferences"
 
-            const val KEY_DATA_SOURCE = "key_data_source"
+            const val KEY_DATA_SOURCE_TYPE = "key_data_source_type"
+            const val KEY_DATA_SOURCE_VALUE = "key_data_source"
             const val KEY_ANIMATION = "key_animation"
 
+        }
+    }
+
+    interface NLUDataSource {
+        companion object {
+            const val DEFAULT = 0
+            const val CUSTOM_AIMYBOX = 1
+            const val CUSTOM_RASA = 2
+            const val CUSTOM_DIALOGFLOW = 3
         }
     }
 

@@ -1,11 +1,21 @@
 package com.sumit.assistant.ui.activity
 
+import android.content.Context
+import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.sumit.assistant.util.AppUtil
 import kotlinx.android.synthetic.main.layout_activity_main.*
 
 open class BaseActivity : AppCompatActivity() {
+
+    lateinit var context: Context
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        context = this
+    }
 
     override fun onStart() {
         super.onStart()
