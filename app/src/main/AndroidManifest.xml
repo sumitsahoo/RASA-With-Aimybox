@@ -15,7 +15,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
-        <activity android:name="com.sumit.assistant.ui.activity.MainActivity">
+        <activity
+            android:name="com.sumit.assistant.ui.activity.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +25,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.sumit.assistant.ui.activity.SettingsActivity" />
+        <activity
+            android:name="com.sumit.assistant.ui.activity.SettingsActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

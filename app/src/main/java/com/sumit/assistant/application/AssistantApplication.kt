@@ -9,15 +9,12 @@ import com.justai.aimybox.core.Config
 import com.justai.aimybox.speechkit.google.platform.GooglePlatformSpeechToText
 import com.justai.aimybox.speechkit.google.platform.GooglePlatformTextToSpeech
 import com.sumit.assistant.di.module.appModule
+import com.sumit.assistant.util.AppConstants
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 import java.util.*
 
 class AssistantApplication : Application(), AimyboxProvider {
-
-    companion object {
-        private const val AIMYBOX_API_KEY = "D01BipNn0ESFmVXSKUkpuHmdjdM6wNzV"
-    }
 
     override val aimybox by lazy { createAimybox(this) }
 
@@ -40,7 +37,7 @@ class AssistantApplication : Application(), AimyboxProvider {
         val textToSpeech = GooglePlatformTextToSpeech(context, Locale.ENGLISH)
         val speechToText = GooglePlatformSpeechToText(context, Locale.ENGLISH)
 
-        val dialogApi = AimyboxDialogApi(AIMYBOX_API_KEY, unitId)
+        val dialogApi = AimyboxDialogApi(AppConstants.AimyboxSettings.DEFAULT_AIMYBOX_API_KEY, unitId)
         //val dialogApi = RasaDialogApi(unitId, "https://9a09c256.ngrok.io/webhooks/rest/webhook")
 
         return Aimybox(Config.create(speechToText, textToSpeech, dialogApi))

@@ -26,9 +26,10 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     override fun onStop() {
-        super.onStop()
 
         if (fl_container != null)
             AppUtil.toggleAnimationBackground(fl_container, false)
+
+        super.onStop()
     }
 }

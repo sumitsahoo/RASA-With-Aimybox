@@ -5,7 +5,7 @@
     <color name="colorAccent">@color/md_cyan_600</color>
 
     <color name="ic_launcher_background">@color/colorPrimary</color>
-
+    <color name="transparent">#00ffffff</color>
 
     <color name="colorGradientStart">@color/colorPrimary</color>
     <color name="colorGradientCenter">@color/white</color>

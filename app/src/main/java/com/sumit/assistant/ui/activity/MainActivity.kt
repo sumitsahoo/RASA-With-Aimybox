@@ -51,6 +51,7 @@ class MainActivity : BaseActivity() {
                 getString(R.string.transition_name_logo)
             )
             startActivity(settingsIntent, options.toBundle())
+
         }
     }
 

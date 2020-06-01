@@ -5,4 +5,15 @@
     <string name="transition_name_logo">logo</string>
     <string name="about_developer"><![CDATA[Designed & Developed By\nSumit Sahoo]]></string>
     <string name="about_icons"><![CDATA[Icon made by Freepik from www.flaticon.com]]></string>
+    <string name="tv_datasource">NLU Data Source</string>
+    <string name="tv_source_selected">"Source Selected: "</string>
+    <string name="tv_about_nlu_source">This application currently supports Aimybox and RASA as NLU source. By default application uses it\'s own Aimybox source.\n\nYou can select your own Aimybox source by entering an API key or select custom RASA source and enter the webhook API URL. Tap on edit icon to do the changes. Changes will be applied after application restarts.\n\nFor more details you can see the full application source code at: https://github.com/sumitsahoo/RASA-With-Aimybox</string>
+    <string name="tv_select_datasource">Select NLU Data Source</string>
+    <string name="radio_default">Default</string>
+    <string name="radio_aimybox">Custom Aimybox</string>
+    <string name="radio_rasa">Custom RASA</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="tv_api_key">API Key/URL</string>
+    <string name="et_hint_enter_api_key">Enter API Key or URL</string>
 </resources>
