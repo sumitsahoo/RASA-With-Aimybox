@@ -132,7 +132,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tv_datasource"
+                            android:text="@string/tv_nlu_engine"
                             android:textAlignment="textStart"
                             android:textColor="@color/md_grey_900"
                             android:textSize="15sp" />
@@ -141,7 +141,7 @@
                             android:id="@+id/tv_nlu_source"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/tv_source_selected"
+                            android:text="@string/tv_engine_selected"
                             android:textAlignment="textStart"
                             android:textColor="@color/md_grey_700"
                             android:textSize="14sp" />
@@ -164,7 +164,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:autoLink="web"
-                    android:text="@string/tv_about_nlu_source"
+                    android:text="@string/tv_about_nlu_engine"
                     android:textAlignment="textStart"
                     android:textColor="@color/md_grey_700"
                     android:textSize="14sp" />

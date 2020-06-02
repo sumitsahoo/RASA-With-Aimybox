@@ -51,7 +51,7 @@ class SettingsActivity : BaseActivity(), SourceSelectionDialogFragment.NLUDataSo
             AppConstants.NLUDataSource.CUSTOM_RASA -> sourceType = getString(R.string.radio_rasa)
         }
 
-        tv_nlu_source.text = getString(R.string.tv_source_selected) + " " + sourceType
+        tv_nlu_source.text = getString(R.string.tv_engine_selected) + " " + sourceType
     }
 
     private fun showSourceSelectionDialog() {

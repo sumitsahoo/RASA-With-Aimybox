@@ -27,7 +27,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
-            android:text="@string/tv_select_datasource"
+            android:text="@string/tv_select_nlu_engine"
             android:textAlignment="textStart"
             android:textColor="@color/md_grey_900"
             android:textSize="17sp" />

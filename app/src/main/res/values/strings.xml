@@ -9,12 +9,12 @@
     <string name="here">here</string>
 
     <string name="msg_fill_source_data">Please enter required details and try saving again.</string>
-    <string name="msg_restart_app">NLU data source changed. Please restart app for the changes to take effect.</string>
+    <string name="msg_restart_app">NLU engine changed. Please restart app for the changes to take effect.</string>
 
-    <string name="tv_datasource">NLU Data Source</string>
-    <string name="tv_source_selected">"Source Selected: "</string>
-    <string name="tv_about_nlu_source">This application currently supports Aimybox and RASA as NLU source. By default application uses it\'s own Aimybox source.\n\nYou can select your own Aimybox source by entering an API key or select custom RASA source and enter the webhook API URL. Tap on edit icon to do the changes. Changes will be applied after application restarts.\n\nFor more details you can see the full application source code at: https://github.com/sumitsahoo/RASA-With-Aimybox</string>
-    <string name="tv_select_datasource">Select NLU Data Source</string>
+    <string name="tv_nlu_engine">NLU Engine</string>
+    <string name="tv_engine_selected">"Engine Selected: "</string>
+    <string name="tv_about_nlu_engine">This application currently supports Aimybox and RASA as NLU engine. By default application uses it\'s own Aimybox.\n\nYou can select your own Aimybox engine by entering an API key or select custom RASA engine by entering the webhook API URL. Tap on edit icon to do the changes. Changes will be applied after application restarts.\n\nFor more details you can see the full application source code at: https://github.com/sumitsahoo/RASA-With-Aimybox</string>
+    <string name="tv_select_nlu_engine">Select NLU Engine</string>
     <string name="tv_api_key_or_url">API Key/URL</string>
     <string name="tv_api_key">API Key</string>
     <string name="tv_url">RASA API URL</string>
