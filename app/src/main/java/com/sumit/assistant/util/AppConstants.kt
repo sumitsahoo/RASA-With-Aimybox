@@ -4,7 +4,7 @@ class AppConstants {
 
     interface AimyboxSettings {
         companion object {
-            const val DEFAULT_AIMYBOX_API_KEY = "D01BipNn0ESFmVXSKUkpuHmdjdM6wNzV"
+            const val DEFAULT_AIMYBOX_API_KEY = <enter your key here>
         }
     }
 
