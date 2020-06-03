@@ -38,7 +38,7 @@ This project has been submitted to `30 Days of Kotlin` initiative by Google : [h
 
 ## Assets
 
-Big thanks to below pages and authors for creating awesome contents for free :) 
+Big thanks to below pages and authors for creating awesome contents that are free to use :) 
 
 1. Lottie JSON file from : https://lottiefiles.com/
 2. Icons from : https://www.flaticon.com/
