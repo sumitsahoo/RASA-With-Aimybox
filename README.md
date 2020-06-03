@@ -2,7 +2,7 @@
 ## Introduction
 This application demonstrates the usage of Aimybox SDK and the integration of NLU engines like Aimybox, RASA and Dialogflow etc. Do read about RASA setup here : [https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/](https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/)
 ## Play Store
-This application is available on Play Store for demo purpose : [https://play.google.com/store/apps/details?id=com.sumit.assistant](https://play.google.com/store/apps/details?id=com.sumit.assistant)
+This application is available on Play Store for demo purpose (Pending publication): [https://play.google.com/store/apps/details?id=com.sumit.assistant](https://play.google.com/store/apps/details?id=com.sumit.assistant)
 
 ## Aimybox Skills
 By default the Aimybox NLU engine is trained with below skills
@@ -28,5 +28,5 @@ This project is written in Kotlin and has below implementations
 
 ## 30 Days of Kotlin
 This project has been submitted to `30 Days of Kotlin` initiative by Google : [https://eventsonair.withgoogle.com/events/kotlin](https://eventsonair.withgoogle.com/events/kotlin)
- 
+
  
