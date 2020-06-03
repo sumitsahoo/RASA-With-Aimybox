@@ -36,4 +36,9 @@ This project is written in Kotlin and has below implementations
 ## 30 Days of Kotlin
 This project has been submitted to `30 Days of Kotlin` initiative by Google : [https://eventsonair.withgoogle.com/events/kotlin](https://eventsonair.withgoogle.com/events/kotlin)
 
- 
+## Assets
+
+Big thanks to below pages and authors for creating awesome contents for free :) 
+
+1. Lottie JSON file from : https://lottiefiles.com/
+2. Icons from : https://www.flaticon.com/
