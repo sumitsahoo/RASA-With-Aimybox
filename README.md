@@ -21,6 +21,8 @@ By default the Aimybox NLU engine is trained with below skills
  5. Weather forecast by OpenWeatherMap
  6. Wikipedia
 
+You can create your own Aimybox engine and add skills from a preselected library : https://aimybox.com/
+
 ## Implementation
 This project is written in Kotlin and has below implementations
 
