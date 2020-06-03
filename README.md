@@ -24,7 +24,7 @@ By default the Aimybox NLU engine is trained with below skills
 ## Implementation
 This project is written in Kotlin and has below implementations
 
- 1. Kotlin DSL based `build.gradle.kts` file
+ 1. Kotlin DSL based `build.gradle.kts` file : https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/
  2. Aimybox Android SDK : [https://github.com/just-ai/aimybox-android-assistant](https://github.com/just-ai/aimybox-android-assistant)
  3. DI by Koin : [https://insert-koin.io/](https://insert-koin.io/)
  4. Kotlin Android Extensions : https://developer.android.com/kotlin/ktx
