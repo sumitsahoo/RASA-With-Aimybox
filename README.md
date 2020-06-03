@@ -1,6 +1,13 @@
 #  Aimybox Assistant
 ## Introduction
 This application demonstrates the usage of Aimybox SDK and the integration of NLU engines like Aimybox, RASA and Dialogflow etc. Do read about RASA setup here : [https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/](https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/)
+
+## Demo
+
+![Aimybox Assistant Demo](demo/aimybox_assistant_by_sumit.gif)
+
+
+
 ## Play Store
 This application is available on Play Store for demo purpose (Pending publication) : [https://play.google.com/store/apps/details?id=com.sumit.assistant](https://play.google.com/store/apps/details?id=com.sumit.assistant)
 
