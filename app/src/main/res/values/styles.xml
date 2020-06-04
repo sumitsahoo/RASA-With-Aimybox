@@ -8,15 +8,9 @@
         <item name="android:forceDarkAllowed" tools:ignore="NewApi">true</item>
         <item name="android:windowContentTransitions">true</item>
 
-        <!-- Customize Assistant components here -->
-
-        <item name="aimybox_assistantButtonTheme">@style/CustomAssistantButtonTheme</item>
-        <item name="aimybox_recognitionTheme">@style/CustomRecognitionWidgetTheme</item>
-        <item name="aimybox_responseTheme">@style/CustomResponseWidgetTheme</item>
-        <item name="aimybox_imageReplyTheme">@style/CustomImageReplyWidgetTheme</item>
-        <item name="aimybox_buttonReplyTheme">@style/CustomButtonReplyWidgetTheme</item>
     </style>
 
+    <!--Dialog without boarder-->
     <style name="FloatingDialog" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
@@ -27,31 +21,6 @@
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowMinWidthMajor">80%</item>
         <item name="android:windowMinWidthMinor">80%</item>
-    </style>
-
-    <style name="CustomAssistantButtonTheme" parent="DefaultAssistantTheme.AssistantButton">
-
-        <!-- Customize Assistant button theme here -->
-
-        <!-- <item name="aimybox_backgroundColor">@color/primary</item> -->
-        <!-- <item name="aimybox_recordingAnimationColor">@color/recording</item> -->
-        <!-- <item name="aimybox_buttonExpandedColor">@color/white</item> -->
-    </style>
-
-    <style name="CustomRecognitionWidgetTheme" parent="DefaultAssistantTheme.Widget.Recognition">
-
-    </style>
-
-    <style name="CustomResponseWidgetTheme" parent="DefaultAssistantTheme.Widget.Response">
-
-    </style>
-
-    <style name="CustomButtonReplyWidgetTheme" parent="DefaultAssistantTheme.Widget.ButtonReply">
-
-    </style>
-
-    <style name="CustomImageReplyWidgetTheme" parent="DefaultAssistantTheme.Widget.ImageReply">
-
     </style>
 
 </resources>
