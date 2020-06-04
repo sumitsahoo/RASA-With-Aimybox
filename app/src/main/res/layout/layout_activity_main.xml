@@ -67,7 +67,7 @@
     </androidx.cardview.widget.CardView>
 
     <FrameLayout
-        android:id="@+id/assistant_container"
+        android:id="@+id/fl_assistant_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:elevation="20dp" />

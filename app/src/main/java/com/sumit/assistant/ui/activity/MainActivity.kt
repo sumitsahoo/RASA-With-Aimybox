@@ -36,7 +36,7 @@ class MainActivity : BaseActivity() {
         val assistantFragment = AimyboxAssistantFragment()
 
         supportFragmentManager.beginTransaction().apply {
-            replace(R.id.assistant_container, assistantFragment)
+            replace(R.id.fl_assistant_container, assistantFragment)
             commit()
         }
     }
@@ -56,7 +56,7 @@ class MainActivity : BaseActivity() {
     }
 
     override fun onBackPressed() {
-        val assistantFragment = (supportFragmentManager.findFragmentById(R.id.assistant_container)
+        val assistantFragment = (supportFragmentManager.findFragmentById(R.id.fl_assistant_container)
                 as? AimyboxAssistantFragment)
         if (assistantFragment?.onBackPressed() != true) super.onBackPressed()
     }
