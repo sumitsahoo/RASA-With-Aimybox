@@ -8,117 +8,134 @@
     app:cardCornerRadius="@dimen/card_content_radius"
     app:cardElevation="@dimen/card_elevation">
 
-    <LinearLayout
-        android:id="@+id/ll_attendee_detail_container"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/gradient_end"
-            android:padding="20dp"
-            android:src="@drawable/ic_settings" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:text="@string/tv_select_nlu_engine"
-            android:textAlignment="textStart"
-            android:textColor="@color/md_grey_900"
-            android:textSize="17sp" />
-
-        <RadioGroup
-            android:id="@+id/rg_data_source"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/radio_default"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/radio_default"
-                android:textColor="@color/md_grey_900"
-                android:textSize="17sp" />
-
-            <RadioButton
-                android:id="@+id/radio_aimybox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/radio_aimybox"
-                android:textColor="@color/md_grey_900"
-                android:textSize="17sp" />
-
-            <RadioButton
-                android:id="@+id/radio_rasa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/radio_rasa"
-                android:textColor="@color/md_grey_900"
-                android:textSize="17sp" />
-        </RadioGroup>
+        android:background="@drawable/gradient_start">
 
         <LinearLayout
-            android:id="@+id/ll_input_view"
+            android:id="@+id/ll_attendee_detail_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
+            android:alpha="0.8"
+            android:background="@color/white"
             android:orientation="vertical">
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/username_text_input_layout"
+            <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="100dp"
+                android:padding="20dp"
+                android:src="@drawable/ic_settings"
+                android:tint="@color/colorPrimary" />
 
-                <EditText
-                    android:id="@+id/et_data_source"
-                    android:layout_width="match_parent"
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/bg_divider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/tv_select_nlu_engine"
+                android:textAlignment="textStart"
+                android:textColor="@color/md_grey_900"
+                android:textSize="17sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_data_source"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_default"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="@string/et_hint_enter_api_key_or_url" />
+                    android:text="@string/radio_default"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="17sp" />
 
-            </com.google.android.material.textfield.TextInputLayout>
+                <RadioButton
+                    android:id="@+id/radio_aimybox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_aimybox"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="17sp" />
 
+                <RadioButton
+                    android:id="@+id/radio_rasa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_rasa"
+                    android:textColor="@color/md_grey_900"
+                    android:textSize="17sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/ll_input_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/username_text_input_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/et_data_source"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/et_hint_enter_api_key_or_url" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_negative"
+                    android:text="@string/btn_cancel"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_positive"
+                    android:text="@string/btn_save"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
 
         </LinearLayout>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:orientation="horizontal"
-            android:weightSum="2">
-
-            <Button
-                android:id="@+id/btn_cancel"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/bg_button_negative"
-                android:text="@string/btn_cancel"
-                android:textColor="@color/white"
-                android:textSize="16dp" />
-
-            <Button
-                android:id="@+id/btn_save"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/bg_button_positive"
-                android:text="@string/btn_save"
-                android:textColor="@color/white"
-                android:textSize="16dp" />
-        </LinearLayout>
-
-    </LinearLayout>
+    </FrameLayout>
 
 
 </androidx.cardview.widget.CardView>

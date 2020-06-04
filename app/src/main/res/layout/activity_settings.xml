@@ -115,7 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="20dp"
-                    android:background="@color/md_blue_grey_500" />
+                    android:background="@drawable/bg_divider" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
