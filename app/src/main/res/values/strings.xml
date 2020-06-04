@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">Aimybox Assistant</string>
-    <string name="prompt">Your assistant is ready!\nTap on button below to start recognition.</string>
+    <string name="prompt">Assistant is ready.\nTap on button below to start conversation.</string>
     <string name="initial_phrase">How can I help you?</string>
     <string name="transition_name_logo">logo</string>
     <string name="about_developer"><![CDATA[Designed & Developed By\nSumit Sahoo]]></string>
     <string name="about_icons"><![CDATA[Icon made by Freepik from www.flaticon.com]]></string>
     <string name="about_animation"><![CDATA[Lottie animation file from www.lottiefiles.com]]></string>
-    <string name="here">here</string>
 
     <string name="msg_fill_source_data">Please enter required details and try saving again.</string>
     <string name="msg_restart_app">NLU engine changed. Please restart app for the changes to take effect.</string>

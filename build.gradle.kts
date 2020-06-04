@@ -1,11 +1,7 @@
 buildscript {
     val kotlinVersion = "1.3.72"
-    val aimyboxVersion = "0.11.0"
-    val componentsVersion = "0.1.8"
 
     extra.set("kotlinVersion", kotlinVersion)
-    extra.set("aimyboxVersion", aimyboxVersion)
-    extra.set("componentsVersion", componentsVersion)
 
     repositories {
         google()

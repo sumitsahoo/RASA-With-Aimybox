@@ -1,6 +1,3 @@
-val componentsVersion: String by rootProject.extra
-val aimyboxVersion: String by rootProject.extra
-
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -18,8 +15,8 @@ android {
         minSdkVersion(23)
         targetSdkVersion(29)
 
-        versionName = "1.0.2"
-        versionCode = 3
+        versionName = "1.0.3"
+        versionCode = 4
     }
 
     compileOptions {
@@ -73,6 +70,9 @@ dependencies {
     implementation("androidx.security:security-crypto:1.0.0-rc02")
 
     // Aimybox
+    val aimyboxVersion = "0.11.0"
+    val componentsVersion = "0.1.8"
+
     implementation("com.justai.aimybox:components:$componentsVersion")
     implementation("com.justai.aimybox:core:$aimyboxVersion")
     implementation("com.justai.aimybox:google-platform-speechkit:$aimyboxVersion")
