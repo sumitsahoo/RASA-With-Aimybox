@@ -1,6 +1,6 @@
 #  Aimybox Assistant
 ## Introduction
-This application demonstrates the usage of Aimybox SDK and the integration of NLU engines like Aimybox, RASA and Dialogflow etc. Do read about RASA setup here : [https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/](https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/)
+This application demonstrates the usage of Aimybox SDK and the integration of NLU engines like Aimybox, RASA and Dialogflow etc. UI is simple enough to use multiple NLU engines while keeping the core UI similar.
 
 ## Demo
 
@@ -21,6 +21,12 @@ By default the Aimybox NLU engine is trained with below skills
  6. Wikipedia
 
 You can create your own Aimybox NLU engine and add skills from a preselected library : https://aimybox.com/. After creating, train the model then add the API key in app settings. Remember, app restart is needed for the changes to take effect. This is because the settings are applied in Application class level.
+
+## RASA
+
+Do read about RASA setup here : [https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/](https://blog.rasa.com/how-to-build-a-mobile-voice-assistant-with-open-source-rasa-and-aimybox/)
+
+You can create your own RASA instance locally and expose the endpoint via ngrok : https://ngrok.com/ then add ngrok endpoint in the app settings.
 
 ## Implementation
 This project is written in Kotlin and has below implementations
