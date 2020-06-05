@@ -5,8 +5,7 @@ This application demonstrates the usage of Aimybox SDK and the integration of NL
 ## Demo
 
 ![Aimybox Assistant Demo](demo/aimybox_assistant_by_sumit.gif)
-
-
+![Aimybox Assistant Demo](demo/aimybox_assistant_dark_by_sumit.gif)
 
 ## Play Store
 This application is available on Play Store for demo purpose (Pending publication) : [https://play.google.com/store/apps/details?id=com.sumit.assistant](https://play.google.com/store/apps/details?id=com.sumit.assistant)
