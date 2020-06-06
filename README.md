@@ -43,6 +43,8 @@ This project is written in Kotlin and has below implementations
 ## 30 Days of Kotlin
 This project has been submitted to `30 Days of Kotlin` initiative by Google : [https://eventsonair.withgoogle.com/events/kotlin](https://eventsonair.withgoogle.com/events/kotlin)
 
+Thanks Google for showcasing this in Google Developers Webinar : https://youtu.be/WCxoDUcTsbU?t=3443
+
 ## Assets
 
 Big thanks to below pages and authors for creating awesome contents that are free to use :) 
