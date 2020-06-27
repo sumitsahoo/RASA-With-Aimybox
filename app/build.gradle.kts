@@ -54,7 +54,7 @@ repositories {
 
 dependencies {
 
-    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.3")
+    debugImplementation("com.squareup.leakcanary:leakcanary-android:2.4")
 
     implementation("com.google.android.material:material:1.1.0")
     implementation("androidx.appcompat:appcompat:1.1.0")
@@ -67,7 +67,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3")
 
     // Encrypted SharedPref
-    implementation("androidx.security:security-crypto:1.0.0-rc02")
+    implementation("androidx.security:security-crypto:1.1.0-alpha01")
 
     // Aimybox
     val aimyboxVersion = "0.11.0"
@@ -83,7 +83,7 @@ dependencies {
     implementation("com.airbnb.android:lottie:$lottieVersion")
 
     // Koin DI
-    val koinVersion = "2.1.5"
+    val koinVersion = "2.1.6"
 
     // Koin for Android (Kotlin)
     implementation("org.koin:koin-core:$koinVersion")
