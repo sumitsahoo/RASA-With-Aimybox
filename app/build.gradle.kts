@@ -79,7 +79,7 @@ dependencies {
     implementation("com.justai.aimybox:rasa-api:$aimyboxVersion")
 
     // Lottie
-    val lottieVersion = "3.4.0"
+    val lottieVersion = "3.4.1"
     implementation("com.airbnb.android:lottie:$lottieVersion")
 
     // Koin DI
