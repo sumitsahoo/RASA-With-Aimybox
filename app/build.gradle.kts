@@ -15,8 +15,8 @@ android {
         minSdkVersion(23)
         targetSdkVersion(30)
 
-        versionName = "1.0.3"
-        versionCode = 4
+        versionName = "1.0.4"
+        versionCode = 5
     }
 
     compileOptions {
